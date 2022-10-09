@@ -1,0 +1,36 @@
+
+
+
+
+.logo {
+  font-family: $secondaryfontfamilyRaleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+  padding-top: 24px;
+
+
+     &__text {
+  color: var(--accent-color);
+}
+
+
+    &--header{ 
+  color: #000000;
+  padding-top: 24px;
+}
+    &--footer{
+  color: #ffffff;
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
+
+ }
+}
+
+
+
