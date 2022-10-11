@@ -5,8 +5,17 @@
   padding-bottom: 60px;
 
   &-flex {
-    display: flex;
+    // display: flex;
+    justify-content: center;
+    text-align: center;
   }
+
+  // &-cont{
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+    
+  // }
   &-list {
     padding-left: 0px;
     list-style: none;
@@ -34,8 +43,8 @@
   }
   &-join,
   &-subscribe {
-    padding-top: 72px;
-    margin-left: 70px;
+    padding-top: 60px;
+    // margin-left: 70px;
   }
 
   &-heading {
@@ -45,7 +54,7 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     margin-bottom: 20px;
-  }
+    
 
   &-icon {
     position: absolute;
@@ -62,7 +71,7 @@
   margin: 0;
   list-style: none;
   gap: 10px;
-  padding-left: 32px;
+  
   padding-bottom: 30px;
 }
 
@@ -101,12 +110,13 @@
   color: var(--accent-color);
 }
 .enter-login {
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  // flex-direction: row;
 
   & input {
     margin-right: 30px;
-    width: 358px;
+    // width: 358px;
+    width: 100%
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
 
@@ -139,4 +149,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primari-background-color);
+  margin: auto;
+margin-top: 20px;
 }
