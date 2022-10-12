@@ -17,12 +17,21 @@
   color: var(--primary-text-color);
   margin-bottom: 10px;
   text-align: center;
+  width: 354px;
 }
 
 .qualitys__list {
-  // display: flex;
+  
+  
+  
   gap: 30px;
   list-style: none;
+ 
+   @media screen and ( min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+  } 
 }
 
 .qualitys__text {
@@ -32,7 +41,11 @@
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+
+  @media screen and ( min-width: 768px){
+    width: 354px;
+  }
   
 
   
@@ -43,7 +56,7 @@
 // }
 
 .qualitys__icon {
-  height: 120px;
+  height: 150px;
   width: 100%;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -51,4 +64,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media screen and ( min-width: 768px){
+    width:354px;
+  }
+  
 }

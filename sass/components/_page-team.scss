@@ -34,9 +34,21 @@
 }
 
 .team-list {
-  // display: flex;
+ 
   margin: auto;
   list-style: none;
+  
+  
+  @media screen and ( min-width: 768px){
+    
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+
+  }
+
+
 
   & .item {
     // margin-right: 30px;
@@ -45,11 +57,17 @@
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 30px;
+
+    @media screen and ( min-width: 768px){
+    width: 354px;
+    }
+    
+
   }
-  & .item:nth-child(4n) {
-    margin-bottom: 0;
+  // & .item:nth-child(4n) {
+  //   margin-bottom: 0;
    
-  }
+  // }
 }
 
 .social-links {
