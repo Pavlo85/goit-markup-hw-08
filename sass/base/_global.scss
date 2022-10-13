@@ -22,13 +22,18 @@ img {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 
 //  @media screen and ( max-width: 480px) {
 //     width: 480px;
 //   } padding-bottom: 60px;
 //   padding-top: 60px;
+@media screen and ( max-width: 768px){
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 }
 
 label {

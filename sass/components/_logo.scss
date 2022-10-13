@@ -5,13 +5,18 @@
 .logo {
   font-family: $secondaryfontfamilyRaleway;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.2;
   color: #000000;
   letter-spacing: 0.03em;
 
   text-decoration: none;
   padding-top: 24px;
+   @media screen and ( max-width:1199px){
+font-size: 24px;
+   }
+
+   
 
 
      &__text {

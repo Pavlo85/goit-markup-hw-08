@@ -1,9 +1,9 @@
 /* ПОСТІЙНІ КЛІЄНТИ */
 
 .clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
+  // padding-top: 60px;
+  // padding-bottom: 60px;
+// width: 50%;
   &__heading {
     font-weight: 700;
     font-size: 36px;
@@ -27,6 +27,7 @@
 
 .client {
   display: flex;
+  
   width: 210px;
   height: 92px;
   

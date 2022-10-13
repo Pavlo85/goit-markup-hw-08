@@ -33,8 +33,14 @@ img {
 }
 
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 label {
@@ -73,12 +79,17 @@ label {
 .logo {
   font-family: "Raleway";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.2;
   color: #000000;
   letter-spacing: 0.03em;
   text-decoration: none;
   padding-top: 24px;
+}
+@media screen and (max-width: 1199px) {
+  .logo {
+    font-size: 24px;
+  }
 }
 .logo__text {
   color: var(--accent-color);
@@ -170,7 +181,7 @@ label {
 }
 .page-header__contact {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.2;
   text-decoration: none;
   display: -webkit-box;
@@ -182,6 +193,11 @@ label {
           flex-direction: column;
   display: none;
 }
+@media screen and (max-width: 1199px) {
+  .page-header__contact {
+    font-size: 12px;
+  }
+}
 @media screen and (min-width: 768px) {
   .page-header__contact {
     display: -webkit-inline-box;
@@ -192,6 +208,20 @@ label {
 }
 .page-header__contact--nolist {
   list-style: none;
+}
+@media screen and (min-width: 1200px) {
+  .page-header__contact--nolist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 .page-header-contactlink {
   margin-left: 34px;
@@ -210,7 +240,11 @@ label {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 10px;
+}
+@media screen and (max-width: 1199px) {
+  .page-header-contactlink {
+    margin-bottom: 10px;
+  }
 }
 .page-header__icon {
   margin-right: 10px;
@@ -229,6 +263,9 @@ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .page-header__nav {
   display: -webkit-box;
@@ -360,10 +397,6 @@ label {
 }
 
 /* НАША КОМАНДА */
-.section.section-team {
-  padding-bottom: 60px;
-}
-
 .team-heading {
   font-weight: 700;
   font-size: 36px;
@@ -414,8 +447,10 @@ label {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
-.team-list .item:not(:last-child) {
-  padding-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .team-list .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .team-list .item {
@@ -463,10 +498,6 @@ label {
 }
 
 /* ПОСТІЙНІ КЛІЄНТИ */
-.clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 .clients__heading {
   font-weight: 700;
   font-size: 36px;
