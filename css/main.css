@@ -413,7 +413,9 @@ label {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 30px;
+}
+.team-list .item:not(:last-child) {
+  padding-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .team-list .item {
@@ -848,6 +850,12 @@ label {
   padding-right: 40px;
   padding-top: 40px;
 }
+@media screen and (max-width: 1199px) {
+  .modal {
+    height: 609px;
+    width: 450px;
+  }
+}
 
 .button-modal {
   position: absolute;
@@ -929,7 +937,6 @@ textarea:hover, textarea:focus {
 
 .input-form {
   height: 40px;
-  width: 448px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 10px;
@@ -1008,6 +1015,11 @@ textarea:hover, textarea:focus {
   top: 9px;
   left: 15px;
 }
+@media screen and (max-width: 1199px) {
+  .box-vector {
+    top: 7px;
+  }
+}
 
 .lable-name {
   padding-left: 36px;
@@ -1017,6 +1029,11 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   color: #757575;
 }
+@media screen and (max-width: 1199px) {
+  .lable-name {
+    font-size: 12px;
+  }
+}
 
 .contract {
   font-weight: 400;
@@ -1025,6 +1042,11 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-left: 3px;
+}
+@media screen and (max-width: 1199px) {
+  .contract {
+    font-size: 12px;
+  }
 }
 
 .form-button {
