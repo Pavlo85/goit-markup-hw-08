@@ -610,6 +610,11 @@ label {
     width: 226px;
   }
 }
+@media screen and (min-width: 1199px) {
+  .client {
+    width: 170px;
+  }
+}
 .client__link {
   fill: currentColor;
 }
