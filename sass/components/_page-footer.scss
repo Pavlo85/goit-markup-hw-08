@@ -3,11 +3,19 @@
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
+  
 
   &-flex {
     // display: flex;
     justify-content: center;
     text-align: center;
+    
+
+    @media screen and ( min-width: 1200px){
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+    }
   }
 
      @media screen and ( min-width: 768px){
@@ -16,7 +24,9 @@
     flex-direction: column;
     // width: 232px;
     // justify-content: center;
+    
 }
+
    }    
   
 
@@ -51,7 +61,7 @@
   }
   &-join{
     padding-top: 60px;
-    @media screen and ( min-width: 768px){
+    @media screen and ( min-width: 768px) and(max-width: 1199px){
       // display: flex;
       // width: 204px;
       // display: inline-flex;
@@ -60,6 +70,11 @@
       padding-top: 65px;
 
     }
+  @media screen and ( min-width: 1200px){
+    margin-left: 100px;
+    padding-top: 72px;
+  }
+  
   }
 
 
@@ -67,6 +82,10 @@
   &-subscribe {
     padding-top: 60px;
     // margin-left: 70px;
+    @media screen and ( min-width: 1200px){
+      padding-top: 72px;
+    }
+
    
   }
 
@@ -89,6 +108,8 @@
 }
 
 .contjoin{
+
+  
   @media screen and ( min-width: 768px){
 
     display: flex;
@@ -144,12 +165,15 @@
   color: var(--accent-color);
 }
 .enter-login {
-  // display: flex;
+  @media screen and ( min-width: 1200px){
+    display: flex;
+  }
+  
   // flex-direction: row;
 
   & input {
     margin-right: 30px;
-    // width: 358px;
+    
     width: 100%;
 
     
@@ -166,6 +190,12 @@
     @media screen and ( min-width: 768px){
       width: 450px;
     }
+    @media screen and ( min-width: 1200px){
+
+      width: 358px;
+    }
+
+    
   }
 }
 
@@ -191,4 +221,11 @@
   color: var(--primari-background-color);
   margin: auto;
 margin-top: 20px;
+
+@media screen and ( min-width: 1200px){
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+
 }

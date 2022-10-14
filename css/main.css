@@ -634,6 +634,17 @@ label {
           justify-content: center;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer-cont {
     display: -webkit-box;
@@ -674,14 +685,25 @@ label {
 .footer-join {
   padding-top: 60px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-join {
     padding-right: 74px;
     padding-top: 65px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer-join {
+    margin-left: 100px;
+    padding-top: 72px;
+  }
+}
 .footer-subscribe {
   padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-subscribe {
+    padding-top: 72px;
+  }
 }
 .footer-heading {
   font-weight: 700;
@@ -754,6 +776,13 @@ label {
   color: var(--accent-color);
 }
 
+@media screen and (min-width: 1200px) {
+  .enter-login {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 .enter-login input {
   margin-right: 30px;
   width: 100%;
@@ -769,6 +798,11 @@ label {
 @media screen and (min-width: 768px) {
   .enter-login input {
     width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .enter-login input {
+    width: 358px;
   }
 }
 
@@ -798,6 +832,12 @@ label {
   color: var(--primari-background-color);
   margin: auto;
   margin-top: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .btn-footer {
+    margin-top: 0;
+    margin-left: 12px;
+  }
 }
 
 .radiobuttons {
