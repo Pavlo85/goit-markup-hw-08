@@ -1,28 +1,83 @@
 /* СЕКЦІЯ ГЕРОЙ */
 .section-hero {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/bgi-hero-opt.jpg);
-  padding-bottom: 294px;
-  max-width: 1600px;
-  height: 600px;
+  
+  // padding-bottom: 294px;
+  // max-width: 1600px;
+  // height: 600px;
   margin-left: auto;
   margin-right: auto;
 
-  padding-top: 94px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   // background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-480\ img.jpg);
+
+
+    @media ( min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-480\ img@2x.jpg);
+
+    }
+
+ 
+
+  @media screen and ( min-width: 768px){
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-768\ img.jpg);
+
+
+
+    @media ( min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-768\ img@2x.jpg);
+
+    }
+
+  }
+  
+  
+  @media screen and ( min-width: 1200px){
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-1200\ img.jpg );
+
+    @media ( min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/hero/Header-1200Img@2x.jpg);
+
+    }
+
+  }
+  
 
 
   &__title {
-  font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+font-size: 26px;
+line-height: 1.60;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primari-background-color);
-  padding-top: 106px;
-  padding-bottom: 30px;
-  letter-spacing: 0.06em;
+ letter-spacing: 0.06em;
+ margin-bottom: 30px;
+
+ @media screen and ( min-width: 1200px){
+  font-size: 44px;
+  line-height: 1.36;
+ }
   
+
+
 
 }
 }
