@@ -1425,6 +1425,7 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.02em;
   color: #2196F3;
   margin-left: 0;
+  margin-bottom: 32px;
 }
 
 .menu-email {
@@ -1434,4 +1435,18 @@ textarea:hover, textarea:focus {
   letter-spacing: 0.02em;
   color: #757575;
   margin-left: 0;
+}
+
+.menu-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 87%;
 }/*# sourceMappingURL=main.css.map */

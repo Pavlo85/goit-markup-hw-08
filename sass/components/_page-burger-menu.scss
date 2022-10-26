@@ -39,6 +39,7 @@ line-height: 1.17;
 letter-spacing: 0.02em;
 color: #2196F3;
 margin-left: 0;
+margin-bottom: 32px;
 
 }
 .menu-email{
@@ -53,3 +54,9 @@ margin-left: 0;
 
 }
 
+.menu-socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 87%;
+}
