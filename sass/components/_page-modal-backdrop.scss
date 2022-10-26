@@ -42,12 +42,13 @@
 
    @media screen and ( max-width: 1199px){
     height: 609px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
    }
    
 }
 
-.button-modal {
+.button-modal   {
   position: absolute;
   top: 0;
   right: 0;
@@ -154,6 +155,7 @@ textarea {
 .box {
   display: flex;
   flex-direction: row;
+  
 
   align-items: center;
   position: relative;
@@ -179,9 +181,11 @@ textarea {
 
 .check-box {
   position: absolute;
+  
   width: 16px;
   height: 15px;
   left: 13px;
+  top: 4px;
 
   background-color: #ffffff;
   border-radius: 2px;
@@ -195,11 +199,14 @@ textarea {
   position: absolute;
   height: 10px;
   width: 12px;
-  top: 9px;
+  top: 7px;
   left: 15px;
-  @media screen and ( max-width: 1199px){
-    top: 7px;
-  }
+  // @media screen and ( max-width: 1199px){
+  //   top: 7px;
+  // }
+  // @media screen and ( min-width: 1200px){
+  //   top: 7px;
+  // }
 }
 
 .lable-name {

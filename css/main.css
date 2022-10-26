@@ -1078,7 +1078,8 @@ label {
 @media screen and (max-width: 1199px) {
   .modal {
     height: 609px;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 }
 
@@ -1226,6 +1227,7 @@ textarea:hover, textarea:focus {
   width: 16px;
   height: 15px;
   left: 13px;
+  top: 4px;
   background-color: #ffffff;
   border-radius: 2px;
   border: 2px solid #212121;
@@ -1237,13 +1239,8 @@ textarea:hover, textarea:focus {
   position: absolute;
   height: 10px;
   width: 12px;
-  top: 9px;
+  top: 7px;
   left: 15px;
-}
-@media screen and (max-width: 1199px) {
-  .box-vector {
-    top: 7px;
-  }
 }
 
 .lable-name {
