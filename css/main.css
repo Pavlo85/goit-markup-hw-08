@@ -1143,7 +1143,7 @@ label {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: hsl(207deg, 90%, 54%);
+  border-color: hsl(207, 90%, 54%);
 }
 .form-field:hover .icon-input, .form-field:focus .icon-input {
   fill: var(--accent-color);
